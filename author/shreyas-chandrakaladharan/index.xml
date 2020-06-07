@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shreyas Chandrakaladharan | Philip Ekfeldt</title>
+    <link>/author/shreyas-chandrakaladharan/</link>
+      <atom:link href="/author/shreyas-chandrakaladharan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shreyas Chandrakaladharan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 May 2020 00:40:59 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Shreyas Chandrakaladharan</title>
+      <link>/author/shreyas-chandrakaladharan/</link>
+    </image>
+    
+    <item>
+      <title>Bird&#39;s Eye View Layout Prediction</title>
+      <link>/project/dl_project/</link>
+      <pubDate>Mon, 11 May 2020 00:40:59 -0400</pubDate>
+      <guid>/project/dl_project/</guid>
+      <description>&lt;p&gt;In this project we focus on Bird&amp;rsquo;s Eye View (BEV) prediction based on monocular photos taken by the cameras on top of the car. We present a Maximum Mean Discrepancy Variational Auto Encoder (MMD VAE) model to predict the BEV road layout. We also contribute an approach combining Image Warping, U-Net and Post-processing to predict the bounding boxes (BB) on the BEV layout. Our models achieve &lt;strong&gt;0.81 test threat score on the road layout prediction task and 0.072 test threat score on the BB prediction task&lt;/strong&gt;. Animations below visualize the predictions of our final models.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

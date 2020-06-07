@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golf | Philip Ekfeldt</title>
+    <link>/category/golf/</link>
+      <atom:link href="/category/golf/index.xml" rel="self" type="application/rss+xml" />
+    <description>golf</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 30 May 2020 23:45:44 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>golf</title>
+      <link>/category/golf/</link>
+    </image>
+    
+    <item>
+      <title>Golf analytics</title>
+      <link>/post/golf-analytics/</link>
+      <pubDate>Sat, 30 May 2020 23:45:44 -0400</pubDate>
+      <guid>/post/golf-analytics/</guid>
+      <description>&lt;p&gt;If you didn&amp;rsquo;t know already, I have a (pretty healthy) obsession with the game of golf. When I was younger it translated into spending whole days at the golf course over summer, and now it mostly means I listen to an unhealthy amount of golf podcasts where any normal person wouldn&amp;rsquo;t get 99% of the references to professional golf. Additionally, I&amp;rsquo;ve become very interested in the data analytics in golf that have vastly been improved by advanced data collection over the last 15 years.&lt;/p&gt;
+&lt;p&gt;Before the year 2004, the data collected in professional golf was usually very simple. How long was your drive, did it hit the fairway, did you hit the green in the right number of shots, how many putts did you have on this hole. This was usually collected for every hole, although depending on the resources, distance measurements were limited to fewer holes due to the requirement of measuring tools. While this data said &lt;em&gt;something&lt;/em&gt; about how that player performed, it did not tell &lt;em&gt;everything&lt;/em&gt; and a lot of times it was even easy to make the wrong conclusion.&lt;/p&gt;
+&lt;p&gt;As an example, imagine a player missed the green slightly, leading to them needing to make a chip. They do the shot and it leaves a very short put to tap in, lets say 2 feet. The player makes the put, and goes away with a par. With traditional stats, this could be described as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fairway: 1/1&lt;/li&gt;
+&lt;li&gt;Green: 0/1&lt;/li&gt;
+&lt;li&gt;Putts: 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Looking at this data without knowledge about what actually happened during the hole, one &lt;em&gt;could&lt;/em&gt; make the conclusion that the player made a good putt to save par, while in reality it was the chip that was good and the putt was just a foregone conclusion. Additionally, was the reason for the missed green a difficult (read long) approach shot, or was it more of a bad shot? A lot of assumptions have to be made with this limited information, so what information would we like to have here? Ideally, we would like to know&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The underlying conditions for each shot&lt;/li&gt;
+&lt;li&gt;The underlying conditions from the spot where each shot ended up&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ideally, all parts of the condition of a shot could be quantitized, but this is not possible.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How much would having a tree to shoot over increase the difficulty?&lt;/li&gt;
+&lt;li&gt;How much would having to carry the shot over a bunker increase the difficulty?&lt;/li&gt;
+&lt;li&gt;How much would a hard green compared to a soft green increase the difficulty?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With enough data (read, A LOT) it might be possible to quantify all of these conditions, but since a lot of them also interact with each other, it is simply not possible. Instead, we have to normalize and simplify the conditions into a few simple factors. Enter &lt;strong&gt;Mark Broadie&lt;/strong&gt;. In 2014, he published his book 
+&lt;a href=&#34;https://www.amazon.com/Every-Shot-Counts-Revolutionary-Performance/dp/1592407501&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Every Shot Counts&lt;/em&gt;&lt;/a&gt;, which one could say, was the Moneyball moment for golf. He introduced a system to quantitavely determine the condition of a shot, and based on the condition of where the shot ended up,he could also determine how &lt;em&gt;good&lt;/em&gt; the shot was. How did he do this? He introduced two variables that determined the condition of a shot:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Distance to the hole&lt;/li&gt;
+&lt;li&gt;Lie (e.g. fairway, rough, green, sand)
+&lt;ul&gt;
+&lt;li&gt;It should be noted here that he also introduced a more arbitrary &lt;em&gt;recovery&lt;/em&gt; lie, which simply covered shots where the player couldn&amp;rsquo;t directly aim for the whole but simply had to recover from the position they had put themselves in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What he then did was collect data, lots of data. In his book he describes manual methods he used using amateur players, but the goldmine he had came from the PGA Tour: ShotLink. In 2004, the PGA Tour introduced this new system. At most tournaments in their schedule, it would track the exact position of each shot a player made, including distance to the hole and the lie. With this, Broadie went to work. For each distance to the hole and lie combination, he calculated how many shots did it take for a PGA Tour player on average to get the ball in the hole. With this data in hand, he could create a table:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Distance (yards)&lt;/th&gt;
+&lt;th&gt;Lie&lt;/th&gt;
+&lt;th&gt;Avg shots&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;150&lt;/td&gt;
+&lt;td&gt;Fairway&lt;/td&gt;
+&lt;td&gt;3.0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;150&lt;/td&gt;
+&lt;td&gt;Rough&lt;/td&gt;
+&lt;td&gt;3.2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;450&lt;/td&gt;
+&lt;td&gt;Tee&lt;/td&gt;
+&lt;td&gt;4.2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;With the example data above, how do we calculate the performance of a shot? Let&amp;rsquo;s say a player is hitting his drive on a 450 yard hole. He hits his drive 300 yards, and it leaves him 150 yards to the hole. If he hit the fairway, it means that his avg shots. left from his positions went from 4.2 to 3.0. Since he used 1 shot to get there, his shot was 4.2 - 3.0 - 1 = 0.2 shots better than average. Had he instead hit it to the rough, his shot would have been 4.2 - 3.2 - 1 = 0.0 compared to average, thus average. With this information in hand, Broadie could create shot categories (drive, approach, pitch/chip, and putt) and add up players performance for all shots in a round to gauge what the player did well or not. For example, if a player&amp;rsquo;s round score was 5 shots better than average for that round, it could be because they putted 5 shots better than average, or because their approach shots were 5 shots better than average, or something in between. To account for course difficulty and the skill of all player&amp;rsquo;s in the tournament, each categorie&amp;rsquo;s score was compared to the average of all player&amp;rsquo;s score for that round.&lt;/p&gt;
+&lt;p&gt;This analysis gave players and fans a lot more insights into what a player was doing well, and what they were not doing well. Before this, the fact that someone was a good putter was based more on feeling than anything else, but with this data in hand, it could actually be quantatively shown.&lt;/p&gt;
+&lt;p&gt;I made my own analysis of a more granular case using 2018 PGA Tour data 
+&lt;a href=&#34;https://github.com/PhilipEkfeldt/Golf-Analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Sadly the PGA Tour data is no longer available for academics so this will not be possible anymore.&lt;/p&gt;
+&lt;p&gt;Additionaly, if you are interested, I would really recommend that you checkout 
+&lt;a href=&#34;https://datagolf.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data Golf&lt;/a&gt; as well. They do a lot of interesting analysis as well, usually on a slightly more macro level.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
