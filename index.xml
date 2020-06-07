@@ -88,6 +88,12 @@
       <pubDate>Mon, 11 May 2020 00:40:59 -0400</pubDate>
       <guid>/project/dl_project/</guid>
       <description>&lt;p&gt;In this project we focus on Bird&amp;rsquo;s Eye View (BEV) prediction based on monocular photos taken by the cameras on top of the car. We present a Maximum Mean Discrepancy Variational Auto Encoder (MMD VAE) model to predict the BEV road layout. We also contribute an approach combining Image Warping, U-Net and Post-processing to predict the bounding boxes (BB) on the BEV layout. Our models achieve &lt;strong&gt;0.81 test threat score on the road layout prediction task and 0.072 test threat score on the BB prediction task&lt;/strong&gt;. Animations below visualize the predictions of our final models.&lt;/p&gt;
+&lt;h3 id=&#34;video&#34;&gt;Video:&lt;/h3&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/h6EQ-l9OZIc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     
