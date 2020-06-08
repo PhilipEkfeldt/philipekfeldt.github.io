@@ -30,14 +30,14 @@
 &lt;li&gt;The underlying conditions for each shot&lt;/li&gt;
 &lt;li&gt;The underlying conditions from the spot where each shot ended up&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Ideally, all parts of the condition of a shot could be quantitized, but this is not possible.&lt;/p&gt;
+&lt;p&gt;Ideally, all parts of the condition of a shot could be measured, but this is not possible.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;How much would having a tree to shoot over increase the difficulty?&lt;/li&gt;
 &lt;li&gt;How much would having to carry the shot over a bunker increase the difficulty?&lt;/li&gt;
 &lt;li&gt;How much would a hard green compared to a soft green increase the difficulty?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;With enough data (read, A LOT) it might be possible to quantify all of these conditions, but since a lot of them also interact with each other, it is simply not possible. Instead, we have to normalize and simplify the conditions into a few simple factors. Enter &lt;strong&gt;Mark Broadie&lt;/strong&gt;. In 2014, he published his book 
-&lt;a href=&#34;https://www.amazon.com/Every-Shot-Counts-Revolutionary-Performance/dp/1592407501&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Every Shot Counts&lt;/em&gt;&lt;/a&gt;, which one could say, was the Moneyball moment for golf. He introduced a system to quantitavely determine the condition of a shot, and based on the condition of where the shot ended up,he could also determine how &lt;em&gt;good&lt;/em&gt; the shot was. How did he do this? He introduced two variables that determined the condition of a shot:&lt;/p&gt;
+&lt;a href=&#34;https://www.amazon.com/Every-Shot-Counts-Revolutionary-Performance/dp/1592407501&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Every Shot Counts&lt;/em&gt;&lt;/a&gt;, which one could say, was the Moneyball moment for golf. He introduced a system to quantitatively determine the condition of a shot, and based on the condition of where the shot ended up,he could also determine how &lt;em&gt;good&lt;/em&gt; the shot was. How did he do this? He introduced two variables that determined the condition of a shot:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Distance to the hole&lt;/li&gt;
 &lt;li&gt;Lie (e.g. fairway, rough, green, sand)
@@ -73,11 +73,11 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;With the example data above, how do we calculate the performance of a shot? Let&amp;rsquo;s say a player is hitting his drive on a 450 yard hole. He hits his drive 300 yards, and it leaves him 150 yards to the hole. If he hit the fairway, it means that his avg shots. left from his positions went from 4.2 to 3.0. Since he used 1 shot to get there, his shot was 4.2 - 3.0 - 1 = 0.2 shots better than average. Had he instead hit it to the rough, his shot would have been 4.2 - 3.2 - 1 = 0.0 compared to average, thus average. With this information in hand, Broadie could create shot categories (drive, approach, pitch/chip, and putt) and add up players performance for all shots in a round to gauge what the player did well or not. For example, if a player&amp;rsquo;s round score was 5 shots better than average for that round, it could be because they putted 5 shots better than average, or because their approach shots were 5 shots better than average, or something in between. To account for course difficulty and the skill of all player&amp;rsquo;s in the tournament, each categorie&amp;rsquo;s score was compared to the average of all player&amp;rsquo;s score for that round.&lt;/p&gt;
-&lt;p&gt;This analysis gave players and fans a lot more insights into what a player was doing well, and what they were not doing well. Before this, the fact that someone was a good putter was based more on feeling than anything else, but with this data in hand, it could actually be quantatively shown.&lt;/p&gt;
+&lt;p&gt;With the example data above, how do we calculate the performance of a shot? Let&amp;rsquo;s say a player is hitting his drive on a 450 yard hole. He hits his drive 300 yards, and it leaves him 150 yards to the hole. If he hit the fairway, it means that his avg shots. left from his positions went from 4.2 to 3.0. Since he used 1 shot to get there, his shot was 4.2 - 3.0 - 1 = 0.2 shots better than average. Had he instead hit it to the rough, his shot would have been 4.2 - 3.2 - 1 = 0.0 compared to average, thus average. With this information in hand, Broadie could create shot categories (drive, approach, pitch/chip, and putt) and add up players performance for all shots in a round to gauge what the player did well or not. For example, if a player&amp;rsquo;s round score was 5 shots better than average for that round, it could be because they putted 5 shots better than average, or because their approach shots were 5 shots better than average, or something in between. To account for course difficulty and the skill of all player&amp;rsquo;s in the tournament, each category&amp;rsquo;s score was compared to the average of all player&amp;rsquo;s score for that round.&lt;/p&gt;
+&lt;p&gt;This analysis gave players and fans a lot more insights into what a player was doing well, and what they were not doing well. Before this, the fact that someone was a good putter was based more on feeling than anything else, but with this data in hand, it could actually be quantitatively shown.&lt;/p&gt;
 &lt;p&gt;I made my own analysis of a more granular case using 2018 PGA Tour data 
 &lt;a href=&#34;https://github.com/PhilipEkfeldt/Golf-Analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Sadly the PGA Tour data is no longer available for academics so this will not be possible anymore.&lt;/p&gt;
-&lt;p&gt;Additionaly, if you are interested, I would really recommend that you checkout 
+&lt;p&gt;Additionally, if you are interested, I would really recommend that you checkout 
 &lt;a href=&#34;https://datagolf.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data Golf&lt;/a&gt; as well. They do a lot of interesting analysis as well, usually on a slightly more macro level.&lt;/p&gt;
 </description>
     </item>
