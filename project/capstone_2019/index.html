@@ -208,6 +208,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167953891-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-167953891-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -965,9 +1003,9 @@ tends towards results with high recall. We also attempt a metric learning approa
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/bachelors_thesis/">Experimental Demonstrator of the Uncertainty Principle</a></li>
-      
       <li><a href="/publication/masters_thesis/">Design and Optimisation of Detector Cells for the PoGOLite Polarimeter</a></li>
+      
+      <li><a href="/publication/bachelors_thesis/">Experimental Demonstrator of the Uncertainty Principle</a></li>
       
       <li><a href="/project/dl_project/">Bird&#39;s Eye View Layout Prediction</a></li>
       
