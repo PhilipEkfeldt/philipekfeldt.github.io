@@ -41,6 +41,7 @@ data, we also use a feedforward neural network approach that we expected to help
 score. The best model produced by ESkNN method had an F1 score of 0.75, when evaluated on GD-1 stars. The deep learning method (DeepSets) achieved an F1
 score of 0.66. While both approaches can be tuned to prefer precision or recall, the ESkNN tends towards highly precise results (99%) whereas the DeepSets method
 tends towards results with high recall. We also attempt a metric learning approach that could help uncover a distance learning metric that is an improvement upon Euclidean distance.&lt;/p&gt;
+&lt;p&gt;A paper based on an extension of this work has been submitted to NeurIPS 2020.&lt;/p&gt;
 </description>
     </item>
     
