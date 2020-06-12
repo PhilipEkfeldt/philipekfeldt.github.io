@@ -5,12 +5,23 @@
     <link>/author/philip-ekfeldt/</link>
       <atom:link href="/author/philip-ekfeldt/index.xml" rel="self" type="application/rss+xml" />
     <description>Philip Ekfeldt</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 30 May 2020 23:45:44 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 11 Jun 2020 23:45:44 -0400</lastBuildDate>
     <image>
       <url>/author/philip-ekfeldt/avatar_hud8dddaec447b3b4c5c6dfe7d7b780e16_33069_270x270_fill_q90_lanczos_center.jpg</url>
       <title>Philip Ekfeldt</title>
       <link>/author/philip-ekfeldt/</link>
     </image>
+    
+    <item>
+      <title>Shotlink Dashboard</title>
+      <link>/dashboards/golf_dashboard/</link>
+      <pubDate>Thu, 11 Jun 2020 23:45:44 -0400</pubDate>
+      <guid>/dashboards/golf_dashboard/</guid>
+      <description>&lt;p&gt;This dashboard allows you to look at PGA Tour players approach shot performance in various distance categories for the 2017-2018 PGA Tour Season. Created with Dash/Plotly, data provided by PGA Tour.&lt;/p&gt;
+&lt;h2 id=&#34;dashboard&#34;&gt;Dashboard&lt;/h2&gt;
+&lt;br&gt;
+&lt;iframe src=&#34;https://agile-falls-97193.herokuapp.com/&#34; style=&#34;background-color: #FFFFFF&#34;&gt;</description>
+    </item>
     
     <item>
       <title>Golf analytics</title>
@@ -76,7 +87,8 @@
 &lt;p&gt;With the example data above, how do we calculate the performance of a shot? Let&amp;rsquo;s say a player is hitting his drive on a 450 yard hole. He hits his drive 300 yards, and it leaves him 150 yards to the hole. If he hit the fairway, it means that his avg shots. left from his positions went from 4.2 to 3.0. Since he used 1 shot to get there, his shot was 4.2 - 3.0 - 1 = 0.2 shots better than average. Had he instead hit it to the rough, his shot would have been 4.2 - 3.2 - 1 = 0.0 compared to average, thus average. With this information in hand, Broadie could create shot categories (drive, approach, pitch/chip, and putt) and add up players performance for all shots in a round to gauge what the player did well or not. For example, if a player&amp;rsquo;s round score was 5 shots better than average for that round, it could be because they putted 5 shots better than average, or because their approach shots were 5 shots better than average, or something in between. To account for course difficulty and the skill of all player&amp;rsquo;s in the tournament, each category&amp;rsquo;s score was compared to the average of all player&amp;rsquo;s score for that round.&lt;/p&gt;
 &lt;p&gt;This analysis gave players and fans a lot more insights into what a player was doing well, and what they were not doing well. Before this, the fact that someone was a good putter was based more on feeling than anything else, but with this data in hand, it could actually be quantitatively shown.&lt;/p&gt;
 &lt;p&gt;I made my own analysis of a more granular case using 2018 PGA Tour data 
-&lt;a href=&#34;https://github.com/PhilipEkfeldt/Golf-Analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Sadly the PGA Tour data is no longer available for academics so this will not be possible anymore.&lt;/p&gt;
+&lt;a href=&#34;https://github.com/PhilipEkfeldt/Golf-Analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Sadly the PGA Tour data is no longer available for academics so this will not be possible anymore. The dashboard I created can also be found 
+&lt;a href=&#34;/dashboards/golf_dashboard/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Additionally, if you are interested, I would really recommend that you checkout 
 &lt;a href=&#34;https://datagolf.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data Golf&lt;/a&gt; as well. They do a lot of interesting analysis as well, usually on a slightly more macro level.&lt;/p&gt;
 </description>
