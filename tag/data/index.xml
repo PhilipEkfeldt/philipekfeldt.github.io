@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dashboards | Philip Ekfeldt</title>
-    <link>/dashboards/</link>
-      <atom:link href="/dashboards/index.xml" rel="self" type="application/rss+xml" />
-    <description>Dashboards</description>
+    <title>data | Philip Ekfeldt</title>
+    <link>/tag/data/</link>
+      <atom:link href="/tag/data/index.xml" rel="self" type="application/rss+xml" />
+    <description>data</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jun 2020 21:01:49 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Dashboards</title>
-      <link>/dashboards/</link>
+      <title>data</title>
+      <link>/tag/data/</link>
     </image>
     
     <item>
@@ -24,14 +24,14 @@
     </item>
     
     <item>
-      <title>Shotlink Dashboard</title>
-      <link>/dashboards/golf_dashboard/</link>
-      <pubDate>Thu, 11 Jun 2020 23:45:44 -0400</pubDate>
-      <guid>/dashboards/golf_dashboard/</guid>
-      <description>&lt;p&gt;This dashboard allows you to look at PGA Tour players approach shot performance in various distance categories for the 2017-2018 PGA Tour Season. Created with Dash/Plotly, data provided by PGA Tour.&lt;/p&gt;
-&lt;h2 id=&#34;dashboard&#34;&gt;Dashboard&lt;/h2&gt;
-&lt;br&gt;
-&lt;iframe src=&#34;https://agile-falls-97193.herokuapp.com/&#34; style= &#34;margin-left:-25%; background-color: #FFFFFF; height: 800px; width: 150%;&#34;&gt;</description>
+      <title>Word Bank Dashboard</title>
+      <link>/project/word_bank_dashboard/</link>
+      <pubDate>Sun, 21 Jun 2020 21:01:49 -0400</pubDate>
+      <guid>/project/word_bank_dashboard/</guid>
+      <description>&lt;p&gt;A MVP I created for viewing timeseries data from the World Bank API (&lt;a href=&#34;http://www.worldbank.org&#34;&gt;www.worldbank.org&lt;/a&gt;). It&amp;rsquo;s very barebones at the moment and could use some improvements.&lt;/p&gt;
+&lt;p&gt;Link: 
+&lt;a href=&#34;https://world-data-dashboard.herokuapp.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dashboard&lt;/a&gt; (give it some time to load, Heroku puts it in idle.)&lt;/p&gt;
+</description>
     </item>
     
   </channel>

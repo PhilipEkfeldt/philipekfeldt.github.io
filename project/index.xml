@@ -5,12 +5,23 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 11 May 2020 00:40:59 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 21 Jun 2020 21:01:49 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>/project/</link>
     </image>
+    
+    <item>
+      <title>Word Bank Dashboard</title>
+      <link>/project/word_bank_dashboard/</link>
+      <pubDate>Sun, 21 Jun 2020 21:01:49 -0400</pubDate>
+      <guid>/project/word_bank_dashboard/</guid>
+      <description>&lt;p&gt;A MVP I created for viewing timeseries data from the World Bank API (&lt;a href=&#34;http://www.worldbank.org&#34;&gt;www.worldbank.org&lt;/a&gt;). It&amp;rsquo;s very barebones at the moment and could use some improvements.&lt;/p&gt;
+&lt;p&gt;Link: 
+&lt;a href=&#34;https://world-data-dashboard.herokuapp.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dashboard&lt;/a&gt; (give it some time to load, Heroku puts it in idle.)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Bird&#39;s Eye View Layout Prediction</title>
